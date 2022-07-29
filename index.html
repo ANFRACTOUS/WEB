@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<header>
+    <title>INITIALIZING</title>
+    <link rel="icon" href="./ico.ico">
+</header>
+
+<!-- 
+    VHJ1dGggaXMgYXMgc3RyYWlnaHQgYXMgYW4gYXJyb3csIHdoaWxlIGEgbGllIHN3aXZlbHMgbGlrZSBhIHNuYWtlLgo=
+    VGhpcyBiZWFjb24gaGFzIGV4dGluZ3Vpc2hlZCwgeWV0IGl0IHN0aWxsIHNoaW5lcyBpbiB0aGUgbmlnaHQgc2t5Lg==
+ -->
+
+<body style="Background:black; color:white;">
+    <span class="blinker-text">~$</span>
+    <div class="blinker"></div>
+</body>
+
+<style>
+    .body {
+        background: black;
+        color: white;
+    }
+
+    .blinker-text {
+        font-size: 72pt;
+        color: lime;
+        font-family: "Courier New";
+        position: absolute;
+        top: 100px;
+        left: 100px;
+    }
+
+    .blinker {
+        position:absolute;
+        top: 105px;
+        left: 235px;
+        font-weight: 100;
+        font-size: 108px;
+        width: 25px;
+        height: 90px;
+        -webkit-animation: 1s blink step-end infinite;
+        -moz-animation: 1s blink step-end infinite;
+        -ms-animation: 1s blink step-end infinite;
+        -o-animation: 1s blink step-end infinite;
+        animation: 1s blink step-end infinite;
+    }
+
+    @keyframes blink {
+        from, to {
+            background-color: transparent;
+        }
+        50% {
+            background-color: lime;
+        }
+    }
+
+    @-moz-keyframes blink {
+        from, to {
+            background-color: transparent;
+        }
+        50% {
+            background-color: lime;
+        }
+    }
+
+    @-webkit-keyframes blink {
+        from, to {
+            background-color: transparent;
+        }
+        50% {
+            background-color: lime;
+        }
+    }
+
+    @-ms-keyframes blink {
+        from, to {
+            background-color: transparent;
+        }
+        50% {
+            background-color: lime;
+        }
+    }
+
+    @-o-keyframes blink {
+        from, to {
+            background-color: transparent;
+        }
+        50% {
+            background-color: lime;
+        }
+    }
+</style>
+
+</html>
